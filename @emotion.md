@@ -26,7 +26,7 @@ import { css } from '@emotion/css'
 <div className={css`font-family: sans-serif; text-align: center;`} >
 ```
 
-В цьоиу випадку `@emotion/css` присвоїв `div` випадковий клас (див. DevTools), наприклад, `class="css-f9g3kc"` і помістив в `<head>` такий запис:
+В цьому випадку `@emotion/css` присвоїв `div` випадковий клас (див. DevTools), наприклад, `class="css-f9g3kc"` і помістив в `<head>` такий запис:
 
 ```
 <style data-emotion="css" data-s="">
@@ -69,7 +69,7 @@ return <div className={css`${appClass(bgColor)}`}/>
 
 ## css Prop.
 
-**_Маленька ремарка: стрьомно..._**
+**_Примітка: Для використання цього способу з create-react-app потрібні додаткові налаштування dev-середовища!_**
 
 Основний спосіб емоційно стилізувати елементи – це `css Prop`. Він надає стислий і гнучкий API для стилізації ваших компонентів.
 
