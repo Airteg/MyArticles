@@ -151,9 +151,9 @@ const Button = ({ children }) => {
 export default Button;
 ```
 
-1. Імпортуємо css з `@emotion/react`, а не з `@emotion/css`.
+1. Імпортуємо `css` з `@emotion/react`, а не з `@emotion/css`.
 2. Створюємо компонент `Text`. `Text` повертає стилізований `span`.
-3. Стилі з span`через компонент`<Text>`застосовуються до`{children}`в`Button`. Лаконічно і логічно.
+3. Стилі з `span` через компонент `<Text>` застосовуються до `{children}` в Button. Лаконічно і логічно.
 
 ## Styled Components.
 
